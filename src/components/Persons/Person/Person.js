@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./Person.css";
 
 const person = ( props ) => {
+    console.log("person.js rendering")
     return (
         <div className={styles.Person}>
             <p onClick={props.click}>I'm {props.name} and I am {props.age} years old!</p>
