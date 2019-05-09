@@ -29,9 +29,9 @@ class App extends Component {
     console.log("App.js component did mount")
   }
 
-  componentWillMount(){
-    console.log("Component will mount")
-  }
+  // componentWillMount(){
+  //   console.log("Component will mount")
+  // }
 
   nameChangedHandler = (event, id) =>{
     const personIndex = this.state.persons.findIndex((p)=>{
