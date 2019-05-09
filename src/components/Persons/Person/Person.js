@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import styles from "./Person.css";
 
 import Aux from "../../../hoc/Aux";
